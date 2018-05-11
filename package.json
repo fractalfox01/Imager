@@ -1,0 +1,26 @@
+{
+  "name": "imager",
+  "version": "1.0.0",
+  "description": "An Image Data MicroService",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fractalfox01/Imager.git"
+  },
+  "keywords": [
+    "Expressjs",
+    "Nodejs",
+    "Image",
+    "Microservice",
+    "Javascript"
+  ],
+  "author": "Tommy V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fractalfox01/Imager/issues"
+  },
+  "homepage": "https://github.com/fractalfox01/Imager#readme"
+}
