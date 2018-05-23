@@ -1,5 +1,5 @@
 body{
-  background-color: #474747;
+  background-color: #aeaeae;
 }
 .header{
   width: 610px;
@@ -20,7 +20,7 @@ body{
   padding-bottom: 50px;
   margin-left: 100px;
   margin-right: 100px;
-  background-color: #aeaeae;
+  background-color: #474747;
   color: #fff;
   padding-left: 10px;
 }
