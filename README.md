@@ -39,5 +39,5 @@ returns **TEN** result per query. ( multiple of *10* ), displays indexed images 
 
 returns **ONE** result per query. ( multiple of *1* ), displays indexed image 3.
 
-     http://imager.glitch.me/test?q=panda&offset=3
+     http://imager.glitch.me/test?q=Pistachio&offset=37
 
