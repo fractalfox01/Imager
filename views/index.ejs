@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Abstract</title>
+</head>
+<link type="text/css" rel="stylesheet" href="./styles/index.css"/>
+
+<body>
+<div id="wrapper">
+    <div class="header">An Image Abstraction Service</div>
+    <div class="mainContainer">
+        <h1>Basic use:</h1>
+        <p>Allows user to perform image lookups through the url.</p>
+        <p>Accepts two parameters,</p>
+        <p><span style="color:red">mandatory</span> query:  q=[ your query word/phrase ]</p>
+        <b><em>And</em></b>
+        <p><span style="color:green">Optional</span> offset:  offset=[ Integer type here ]</p>
+        <p>The offset parameter moves the index start over in multiples of ten.</p>
+        <h2>Example:</h2>
+        <p>Returns <span style="color:#d00;">Ten</span> result per query. ( multiple of *10* ), ex. displays indexed images 30 - 39.</p>
+        <p id="ex">http://imager.glitch.me/?q=Pistachio&offset=3</p>
+        <h5>Expected output:</h5>
+        <p id="exp">{"0": {
+            "Url": "https://www.howsweeteats.com/wp-content/uploads/2018/03/pistachio-carrot-cake-I-howsweeteats.com-19.jpg",
+            "Snippet": "Mar 23, 2018 ... This carrot cake is super fun and a twist on the classic because it has chopped \nroasted pistachios in both the cake AND the frosting! Topped ...",
+            "Link": "https://www.howsweeteats.com/2018/03/carrot-cake-pistachio/",
+            "Thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSOKyXEL8-aUzzDWgguyxA3SuqTJFlz3A8DOe_uqqNuH6BH0y1i9sFZZJAP"
+            },...</p>
+        <h2>Testing Example:</h2>
+        <p>Returns <span style="color:#d00;">One</span> result per query. ( multiple of *1* ), ex. displays indexed image 3.</p>
+        <p id="tst">http://imager.glitch.me/test?q=Pistachio&offset=3</p>
+        <h2>View Previous Queries:</h2>
+        <p><a target="_blank" href="http://imager.glitch.me/view">View Queries</a></p>
+    </div>
+</div>
+
+</body>
+</html>
